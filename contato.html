@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Nexa Resources</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-xl">
+            <a class="navbar__espacamento navbar-brand" href="index.html">
+                <span class="navbar__logo-icone"><i class="bi bi-gem"></i></span>
+                <span class="navbar__logo-texto">Nexa Resources</span>
+                <span class="navbar__logo-sub">Mineradora</span>
+            </a>
+            <button class="navbar-toggler navbar__botao-menu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPricipal" aria-controls="menuPricipal" aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="bi bi-list"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPricipal">
+                <ul class="navbar-nav ms-auto navbar__lista">
+                    <li class="nav-item"><a class="nav-link navbar__link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar__link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link navbar__link active" href="contato.html">Contato</a></li>
+                </ul>
+                <a href="contato.html" class="btn navbar__btn-cta ms-lg-4">Fale Conosco</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="carrossel-hero" id="inicio">
+        <div class="carrossel-hero__item carrossel-hero__item--chumbo">
+            <div class="carrossel-hero__sobreposicao"></div>
+            <div class="container-xl carrossel-hero__conteudo">
+                <span class="carrossel-hero__etiqueta">Fale Conosco</span>
+                <h1 class="carrossel-hero__titulo">ENTRE EM <br><em>CONTATO</em></h1>
+                <p class="carrossel-hero__descricao">Envie sua mensagem e converse com a nossa equipe de
+                    vendas ou com o setor de relacionamento para saber mais sobre nossos produtos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="container-xl">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <span class="secao-cabecalho__etiqueta">Entre em contato</span>
+                    <h2 class="secao-cabecalho__titulo texto-esquerda">Fale com a<br><span class="destaque">Nexa</span></h2>
+                    <p class="sobre__texto">Quer saber mais sobre nossos minérios, parcerias comerciais ou oportunidades
+                        de trabalho? Nossa equipe está pronta para atendê-lo.</p>
+                    <ul class="contato__lista">
+                        <li><i class="bi bi-geo-alt-fill"></i> Rodovia BR-040, km 318 – Vazante, MG, 38680-000</li>
+                        <li><i class="bi bi-telephone-fill"></i> (38) 3679-1200</li>
+                        <li><i class="bi bi-envelope-fill"></i> contato@zincvaz.com.br</li>
+                    </ul>
+                </div>
+                <div class="col-lg-7">
+                    <div class="formulario">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="formulario__rotulo">Nome completo</label>
+                                    <input type="text" class="formulario__campo" placeholder="Seu nome" />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="formulario__rotulo">E-mail</label>
+                                    <input type="email" class="formulario__campo" placeholder="seu@email.com" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="formulario__rotulo">Assunto</label>
+                                    <select class="formulario__campo">
+                                        <option>Selecione um assunto</option>
+                                        <option>Parceria comercial</option>
+                                        <option>Compra de minérios</option>
+                                        <option>Trabalhe conosco</option>
+                                        <option>Imprensa</option>
+                                        <option>Outro</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="formulario__rotulo">Mensagem</label>
+                                    <textarea class="formulario__campo formulario__textarea"
+                                        placeholder="Escreva sua mensagem aqui..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn formulario__btn-enviar">Enviar mensagem <i
+                                            class="bi bi-send-fill"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container-xl">
+            <div class="rodape__topo row g-4">
+                <div class="col-lg-4">
+                    <div class="barra-nav__marca mb-3">
+                        <span class="barra-nav__logo-icone"><i class="bi bi-gem"></i></span>
+                        <span class="barra-nav__logo-texto">Nexa</span>
+                        <span class="barra-nav__logo-sub">Mineração</span>
+                    </div>
+                    <p class="rodape__texto">Extraindo riqueza do solo de Vazante com responsabilidade e inovação há
+                        mais de 40 anos.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="rodape__titulo-col">Navegação</h5>
+                    <ul class="rodape__lista">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="rodape__titulo-col">Minérios</h5>
+                    <ul class="rodape__lista">
+                        <li><a href="produtos.html#minerios">Zinco</a></li>
+                        <li><a href="produtos.html#minerios">Prata</a></li>
+                        <li><a href="produtos.html#minerios">Chumbo</a></li>
+                        <li><a href="produtos.html#minerios">Calcário</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="rodape__titulo-col">Nossas redes</h5>
+                    <div class="rodape__redes">
+                        <a href="#" class="rodape__rede"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape__base">
+                <p>&copy; 2026 Nexa Resources Mineração Ltda. Todos os direitos reservados. CNPJ 00.000.000/0001-00</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', e => {
+                const destino = document.querySelector(link.getAttribute('href'));
+                if (destino) {
+                    e.preventDefault();
+                    destino.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        const nav = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('navbar--scroll', window.scrollY > 60);
+        });
+    </script>
+</body>
+
+</html>

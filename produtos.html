@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Nexa Resources</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-xl">
+            <a class="navbar__espacamento navbar-brand" href="index.html">
+                <span class="navbar__logo-icone"><i class="bi bi-gem"></i></span>
+                <span class="navbar__logo-texto">Nexa Resources</span>
+                <span class="navbar__logo-sub">Mineradora</span>
+            </a>
+            <button class="navbar-toggler navbar__botao-menu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPricipal" aria-controls="menuPricipal" aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="bi bi-list"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPricipal">
+                <ul class="navbar-nav ms-auto navbar__lista">
+                    <li class="nav-item"><a class="nav-link navbar__link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar__link active" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link navbar__link" href="sobre.html">Sobre</a></li>
+                </ul>
+                <a href="contato.html" class="btn navbar__btn-cta ms-lg-4">Fale Conosco</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="carrossel-hero" id="inicio">
+        <div class="carrossel-hero__item carrossel-hero__item--prata">
+            <div class="carrossel-hero__sobreposicao"></div>
+            <div class="container-xl carrossel-hero__conteudo">
+                <span class="carrossel-hero__etiqueta">Catálogo de Minérios</span>
+                <h1 class="carrossel-hero__titulo">NOSSOS <br><em>Produtos</em></h1>
+                <p class="carrossel-hero__descricao">Explore nossa linha de minérios de alta qualidade para a indústria,
+                    com soluções completas para construção, metalurgia e energia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="minerios" id="minerios">
+        <div class="container-xl">
+            <div class="secao-cabecalho">
+                <span class="secao-cabecalho__etiqueta">O que oferecemos</span>
+                <h2 class="secao-cabecalho__titulo">Minérios <span class="destaque">Disponíveis</span></h2>
+                <p class="secao-cabecalho__subtitulo">Produtos cuidadosamente processados para atender às demandas
+                    industriais brasileiras e internacionais.</p>
+            </div>
+
+            <div class="minerios__grade row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="cartao-minerio cartao-minerio--zinco">
+                        <div class="cartao-minerio__topo">
+                            <span class="cartao-minerio__simbolo">Zn</span>
+                            <span class="cartao-minerio__numero">30</span>
+                        </div>
+                        <h3 class="cartao-minerio__nome">Zinco</h3>
+                        <p class="cartao-minerio__descricao">Ideal para galvanização, ligas metálicas e aplicações
+                            automotivas de alta resistência.</p>
+                        <div class="cartao-minerio__barra">
+                            <div class="cartao-minerio__progresso" style="width: 85%"></div>
+                        </div>
+                        <span class="cartao-minerio__percentual">Principal produto</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="cartao-minerio cartao-minerio--prata">
+                        <div class="cartao-minerio__topo">
+                            <span class="cartao-minerio__simbolo">Ag</span>
+                            <span class="cartao-minerio__numero">47</span>
+                        </div>
+                        <h3 class="cartao-minerio__nome">Prata</h3>
+                        <p class="cartao-minerio__descricao">Metal nobre usado em eletrônica, joalheria e processos
+                            de alta pureza.</p>
+                        <div class="cartao-minerio__barra">
+                            <div class="cartao-minerio__progresso" style="width: 40%"></div>
+                        </div>
+                        <span class="cartao-minerio__percentual">Subproduto valioso</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="cartao-minerio cartao-minerio--chumbo">
+                        <div class="cartao-minerio__topo">
+                            <span class="cartao-minerio__simbolo">Pb</span>
+                            <span class="cartao-minerio__numero">82</span>
+                        </div>
+                        <h3 class="cartao-minerio__nome">Chumbo</h3>
+                        <p class="cartao-minerio__descricao">Usado em baterias, blindagens e processos metalúrgicos
+                            industriais.</p>
+                        <div class="cartao-minerio__barra">
+                            <div class="cartao-minerio__progresso" style="width: 55%"></div>
+                        </div>
+                        <span class="cartao-minerio__percentual">Produto industrial</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="cartao-minerio cartao-minerio--calcario">
+                        <div class="cartao-minerio__topo">
+                            <span class="cartao-minerio__simbolo">CaCO₃</span>
+                            <span class="cartao-minerio__numero">20</span>
+                        </div>
+                        <h3 class="cartao-minerio__nome">Calcário</h3>
+                        <p class="cartao-minerio__descricao">Adequado para cimento, agricultura e processos químicos</p>
+                        <div class="cartao-minerio__barra">
+                            <div class="cartao-minerio__progresso" style="width: 65%"></div>
+                        </div>
+                        <span class="cartao-minerio__percentual">Alta aceitação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container-xl">
+            <div class="rodape__topo row g-4">
+                <div class="col-lg-4">
+                    <div class="barra-nav__marca mb-3">
+                        <span class="barra-nav__logo-icone"><i class="bi bi-gem"></i></span>
+                        <span class="barra-nav__logo-texto">Nexa</span>
+                        <span class="barra-nav__logo-sub">Mineração</span>
+                    </div>
+                    <p class="rodape__texto">Extraindo riqueza do solo de Vazante com responsabilidade e inovação há
+                        mais de 40 anos.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="rodape__titulo-col">Navegação</h5>
+                    <ul class="rodape__lista">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="rodape__titulo-col">Minérios</h5>
+                    <ul class="rodape__lista">
+                        <li><a href="produtos.html#minerios">Zinco</a></li>
+                        <li><a href="produtos.html#minerios">Prata</a></li>
+                        <li><a href="produtos.html#minerios">Chumbo</a></li>
+                        <li><a href="produtos.html#minerios">Calcário</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="rodape__titulo-col">Nossas redes</h5>
+                    <div class="rodape__redes">
+                        <a href="#" class="rodape__rede"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="rodape__rede"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape__base">
+                <p>&copy; 2026 Nexa Resources Mineração Ltda. Todos os direitos reservados. CNPJ 00.000.000/0001-00</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', e => {
+                const destino = document.querySelector(link.getAttribute('href'));
+                if (destino) {
+                    e.preventDefault();
+                    destino.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        const nav = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('navbar--scroll', window.scrollY > 60);
+        });
+    </script>
+</body>
+
+</html>
