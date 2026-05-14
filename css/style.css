@@ -822,6 +822,65 @@ img {
     transform: translateY(-2px);
 }
 
+.tabela-cores {
+    padding: 80px 0;
+    background: linear-gradient(180deg, var(--cor-fundo-2) 0%, var(--cor-fundo-3) 100%);
+}
+
+.tabela-cores__area {
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.tabela-cores__tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: calc(var(--raio) * 1.5);
+    overflow: hidden;
+}
+
+.tabela-cores__tabela th,
+.tabela-cores__tabela td {
+    padding: 16px 18px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: var(--cor-branco);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tabela-cores__tabela thead {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.tabela-cores__tabela tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.tabela-cores__tabela tbody tr:hover {
+    background: rgba(200, 146, 42, 0.12);
+}
+
+.tabela-cores__swatch {
+    width: 90px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tabela-cores__swatch--fundo {
+    background: var(--cor-fundo);
+}
+
+.tabela-cores__swatch--fundo-2 {
+    background: var(--cor-fundo-2);
+}
+
+.tabela-cores__swatch--fundo-3 {
+    background: var(--cor-fundo-3);
+}
+
 /*RODAPÉ*/
 .rodape {
     background: var(--cor-fundo-3);
